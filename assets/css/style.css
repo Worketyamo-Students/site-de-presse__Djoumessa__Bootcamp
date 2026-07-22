@@ -1,0 +1,20 @@
+/* Definition des variables CSS */
+:root{
+    --defaultFontSize:10px;
+}
+/* reinitialisation de la mise en forme par defaut du navigateur */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* taillde de police par defaut sur ma page web */
+html{
+    font-size: var(--defaultFontSize);
+}
+/* mon contenu occupe totalement la hauteur et la largeur de mon ecran */
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden; /* masque le scroll du navigateur*/
+}
