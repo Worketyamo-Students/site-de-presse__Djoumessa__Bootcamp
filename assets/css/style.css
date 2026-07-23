@@ -31,7 +31,7 @@ body{
     height: 100vh;
     overflow-x: hidden; /* masque le scroll du navigateur*/
 }
-/* mise en forme de mon entete */
+/* I-mise en forme de mon entete */
 header{
     width: 100%;
     height: 12rem;
@@ -89,3 +89,223 @@ header{
     font-size: 1.6rem;
     border: none;
 }
+/* II-mise en forme du main */
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* mise en forme de la premiere section (section_1) */
+#section_1{
+    /* background-color:yellow; */
+    display: flex;
+    width: 100%;
+    height: 63rem;
+    padding: 6rem;
+    gap: 3rem;
+    
+}
+.section_1__box{
+    background-color: yellow;
+    width: 50%;
+    height: 100%;
+    flex: 2;
+    border-radius: 2rem;
+    background-image: url(../images/Francis-ngannou.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+    padding: 2rem;
+    
+
+}
+.section_1__box__rect{
+    width: 1.5rem;
+    height: 14.2rem;
+    border-radius: 2.3rem;
+    background-color: var(--btnColor);
+    position: relative;
+    top: 27rem;
+   
+}
+.section_1__box__text{
+    color: var(--btnTextColor);
+    font-family: var(--titleFont);
+    position: relative;
+    top: 27rem;
+
+}
+.section_1__box__text h1{
+    font-weight: bold;
+    font-size: 4rem;
+    text-shadow:-0.5rem .5rem 1rem  var(--textColor-1);
+}
+.section_1__box__text p{
+    font-weight: 400;
+    font-size: 2rem;
+    text-shadow:-0.7rem .6rem 2rem  var(--textColor-1);
+}
+
+.section_1__actu{
+    
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    justify-content: center; 
+    /* align-items: center; */
+}
+/* Actu 1 */
+.section_1__actu__1{
+    background-color: #FFFFFF;
+    display: flex;
+    gap: 1rem;
+
+}
+.section_1__actu__1__rect{
+    width: 1.3rem;
+    height: 5rem;
+    border-radius: 2rem;
+    background-color: var(--btnColor);
+}
+.section_1__actu__1__text{
+    font-size: var(--titleFont);
+    font-weight: 600;
+    font-size: 1.90rem;
+    color: var(--titleColor-nav);
+    justify-self: center;
+    align-self: center;
+}
+/* Actu 2 */
+
+.section_1__actu__2{
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    gap: 1.5rem;
+    /* padding-top: 1.5rem; */
+    justify-content: center;
+    align-items: center;
+    
+}
+.section_1__actu__2__image{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: #000000;
+    background-image: url(../images/section-1-img1.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    
+}
+.section_1__actu__2__text{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+.section_1__actu__2__text h3{
+    font-family: var(--titleFont);
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--titleColor-1);
+}
+.section_1__actu__2__text p{
+    font-family: var(--textFont);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--titleColor-1);
+}
+/* Actu 3 */
+.section_1__actu__3{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    gap: 1.5rem;
+
+}
+.section_1__actu__3__image{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: #000000;
+    background-image: url(../images/section-1-img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.section_1__actu__3__text{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section_1__actu__3__text h3{
+    font-family: var(--titleFont);
+    font-weight: 600;
+    font-size: 1.98rem;
+    color: var(--titleColor-1);
+
+}
+.section_1__actu__3__text p{
+    font-family: var(--textFont);
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: var(--titleColor-1);
+} 
+/* Actu 4 */
+.section_1__actu__4{
+    display: flex;
+    width: 100%;
+    height: 15rem;
+    gap: 1.5rem;
+
+}
+.section_1__actu__4__image{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    border-radius: 1rem;
+    background-color: yellow;
+    background-image: url(../images/section-1-img3.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.section_1__actu__4__text{
+    flex: 1;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section_1__actu__4__text h3{
+    font-family: var(--titleFont);
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--titleColor-1);
+
+
+}
+.section_1__actu__4__text p{
+    font-family: var(--textFont);
+    font-size: 1.45rem;
+    font-weight: 400;
+    color: var(--titleColor-1);
+}
+
+
