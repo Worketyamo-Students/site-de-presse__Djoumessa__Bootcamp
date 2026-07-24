@@ -97,6 +97,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 2rem;
 }
 /* mise en forme de la premiere section (section_1) */
 #section_1{
@@ -779,6 +780,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 6rem;
 }
 .canal2_pdp{
     width: 37.2rem;
