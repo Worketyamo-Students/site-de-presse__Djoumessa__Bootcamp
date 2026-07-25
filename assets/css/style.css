@@ -30,7 +30,7 @@ html{
 body{
     width: 100vw;
     height: 100vh;
-    overflow-x: hidden; /* masque le scroll du navigateur*/
+    overflow-x: hidden; /* masque le scroll du navigateur horizontalement*/
 }
 /* I-mise en forme de mon entete */
 header{
@@ -40,7 +40,7 @@ header{
 #menu{
     width: 100%;
     display: flex;
-    padding: 2rem;
+     padding: 2rem; 
 
 }
 /* mise en forme de mon logo */
@@ -97,7 +97,7 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
+     gap: .5rem; 
 }
 /* mise en forme de la premiere section (section_1) */
 #section_1{
@@ -105,12 +105,12 @@ main{
     display: flex;
     width: 100%;
     height: 63rem;
-    padding: 6rem;
+    padding: 4rem 6rem 6rem 6rem;
     gap: 3rem;
     
 }
 .section_1__box{
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 50%;
     height: 100%;
     flex: 2;
@@ -200,7 +200,7 @@ main{
     width: 50%;
     height: 100%;
     border-radius: 1rem;
-    background-color: #000000;
+    /* background-color: #000000; */
     background-image: url(../images/section-1-img1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -241,7 +241,7 @@ main{
     width: 50%;
     height: 100%;
     border-radius: 1rem;
-    background-color: #000000;
+    /* background-color: #000000; */
     background-image: url(../images/section-1-img2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -281,7 +281,7 @@ main{
     width: 50%;
     height: 100%;
     border-radius: 1rem;
-    background-color: yellow;
+    /* background-color: yellow; */
     background-image: url(../images/section-1-img3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -313,10 +313,12 @@ main{
 
 #section_2{
     width: 100%;
-    height: 37.3rem;
+    height: 40rem;
     display: flex;
-    padding-left: 6rem;
+    /* padding-left: 6rem; */
+    padding: 3rem 0rem 0rem 6rem;
     gap: 7rem;
+    /* background-color: #000000; */
 }
 .section_2__bloc1{
     flex: 1;
@@ -330,7 +332,7 @@ main{
     width: 29rem;
     height: 100%;
     border-radius: 3rem;
-    background-color: #618264;
+    /* background-color: #618264; */
     background-image: url(../images/section-2-img1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -363,7 +365,7 @@ main{
     width: 29rem;
     height: 100%;
     border-radius: 3rem;
-    background-color: #618264;
+    /* background-color: #618264; */
     background-image: url(../images/section-2-img2.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -396,7 +398,7 @@ main{
      width: 29rem;
     height: 100%;
     border-radius: 3rem;
-    background-color: #618264;
+    /* background-color: #618264; */
     background-image: url(../images/section-2-img3.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -422,11 +424,11 @@ main{
     height: 75rem;
     display: flex;
     flex-direction: column;
-    /* background-color: yellow; */
+    /* background-color: yellow;  */
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    padding: 3rem 3rem 0rem 3rem;
+    gap: 5rem;
+    padding: 4rem 3rem 0rem 3rem;
 
 }
 .section_3__titre{
@@ -450,11 +452,12 @@ main{
 /* mise en forme de la sectiion 4 */
 #section_4{
     width: 100% ;
-    height: 75rem;
+    height: 65rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* background-color: black; */
     
 }
 /* titre */
@@ -468,7 +471,7 @@ main{
 /* section image et texte */
 .section_4__bloc{
     width: 100%;
-    height: 60rem;
+    height: 50rem;
     border-radius: 2rem;
     padding: 4rem 4rem 4rem 6rem;
     display: flex;
@@ -478,7 +481,7 @@ main{
 
 .section_4__bloc__img{
     flex: 1;
-    width: 50%;
+    width: 60%;
     height: 100%;
     border-radius: 2rem;
     background-image: url(../images/section-4-img.jpg);
@@ -489,13 +492,13 @@ main{
     
 .section_4__bloc_text{
     flex: 1;
-    width: 50%;
+    width: 40%;
     height: 100%;
-    background-color: #FFFFFF;
+    /* background-color: #FFFFFF; */
     display: flex;
     flex-direction: column;
-    gap: 4.5rem;
-    padding: 6rem 2rem 2rem 2rem;
+    gap: 4rem;
+    padding: 1rem 2rem 0rem 2rem;
 }
 .section_4__bloc_text h2{
     font-family: var(--titleFont);
@@ -529,7 +532,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    /* background-color: yellow; */
+    /* background-color: yellow;  */
     /* padding-left: 6rem; */
     padding: 0rem 0rem 6rem 6rem;
     gap: 4rem;
@@ -540,7 +543,7 @@ main{
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: .7rem; 
+    gap: 1rem; 
 }
 .section_5_bloc1__img1{
     width: 30rem;
@@ -574,7 +577,7 @@ main{
     /* background-color: #000000; */
     display: flex;
     flex-direction: column;
-    gap: .7rem;
+    gap: 1rem;
 }
 .section_5_bloc1__img2{
     width: 30rem;
@@ -607,7 +610,7 @@ main{
     /* background-color: blue; */
     display: flex;
     flex-direction: column;
-    gap: .7rem;
+    gap: 1rem;
 }
 .section_5_bloc1__img3{
     width: 30rem;
@@ -635,10 +638,10 @@ main{
 /* mise en forme de la section 6 */
 #section_6{
     width: 100%;
-    height: 45rem;
+    height: 50rem;
     /* background-color: yellow; */
     display: flex;
-    padding: 4rem 6rem 4rem 6rem;
+    padding: 4rem 6rem 7.5rem 6rem;
     justify-content: center;
     align-items: center;
 }
@@ -651,7 +654,7 @@ main{
     gap: 3.5rem;
     /* background-color: white;
     border: 1px solid black;  */
-    padding-top: .5rem; 
+    padding-top: .2rem; 
 }
 .section_6__text h2{
     font-family: var(--titleFont);
@@ -680,7 +683,7 @@ main{
     flex: 1;
     width: 50%;
     height: 100%;
-    background-color: black;
+    /* background-color: black; */
     border-radius: 2rem;
     background-image: url(../images/section-6-img.jpg);
     background-repeat: no-repeat;
@@ -692,7 +695,7 @@ main{
     width: 100%;
     height: 50rem;
     /* background-color: yellow; */
-    padding: 3.5rem 0rem 0rem 6rem;
+    padding: 3.5rem 0rem 1rem 6rem;
     display: flex;
     gap: 1.5rem;
 }
@@ -708,7 +711,7 @@ main{
 }
 .section_7__text__rect1{
     width: 1.3rem;
-    height: 5rem;
+    height: 10rem;
     background-color: var(--btnColor);
 }
 .section_7__text__titre{
@@ -736,8 +739,10 @@ main{
     width: 100%;
     height: 45rem;
     display: flex;
-    padding:6rem 0rem 0rem 6rem;
+    padding:9rem 0rem 0rem 6rem;
     gap: 4rem;
+    /* justify-content: center;
+    align-items: center; */
 }
 .section_8__bloc{
     flex: 1;
@@ -751,7 +756,7 @@ main{
     width: 70%;
     height: 100%;
     border-radius: 10px;
-    background-color: #000000;
+    /* background-color: #000000; */
     background-image: url(../images/section-8-img.jpg);
     background-repeat: no-repeat;
     background-position:center center ;
@@ -780,7 +785,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 6rem;
+    margin-top: 7rem;
 }
 .canal2_pdp{
     width: 37.2rem;
