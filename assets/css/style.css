@@ -115,10 +115,11 @@ main{
     height: 100%;
     flex: 2;
     border-radius: 2rem;
-    background-image: url(../images/Francis-ngannou.jpg);
+    background: linear-gradient(to top,#000000d5,rgba(0,0,0,0)),url(../images/Francis-ngannou.jpg) no-repeat center / cover;
+    /* background-image: url(../images/Francis-ngannou.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: cover; */
     position: relative;
     display: flex;
     gap: 1.5rem;
