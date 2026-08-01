@@ -165,7 +165,6 @@ main{
 }
 /* Actu 1 */
 .section_1__actu__1{
-    background-color: #FFFFFF;
     display: flex;
     gap: 1rem;
 
@@ -438,6 +437,7 @@ main{
     font-weight: 600;
     font-size: 3.5rem;
     color: var(--titleColor-nav);
+    text-align: center;
 }
 .section_3__img{
     width: 80%;

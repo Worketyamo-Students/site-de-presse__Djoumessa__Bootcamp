@@ -1,208 +1,166 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>site de presse</title>
-        <link rel="stylesheet" href="./assets/css/style.css">
-    </head>
-    <body>
-        <header>
-            <!-- utilisation de la balise nav pour contenir directement les elts e mon entete -->
-            <nav id="menu">
-                <div class="menu__logo-canal2"><img src="./assets/images/canal2-logo.png"></div>
-                <div class="menu__liens">
-                    <a href="#">Accueil</a>
-                    <a href="#">Actualités</a>
-                    <a href="#">Programme</a>
-                    <a href="#">Direct</a>
-                </div>
-                <div class="menu__btn">
-                    <button>Premium</button>
-                </div>
-            </nav>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:wght@100;200;300;400;500;600;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --font-IBM: "IBM Plex Sans Hebrew", sans-serif;
+            --color-canal2: #618264;
+            --font-Open-sans: "Open Sans", sans-serif;
+            --color-paragraph: #79AC78;
+            --color-Titre:#000E01;
+        }
+    </style>
+    <script type="module" src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@8.0.13/dist/ionicons/ionicons.js"></script>
+    <title>Canal 2 internationnal </title>
+</head>
+<body>
 
-        </header>
-        <main>
-            <!-- utilisation de la balise main pour contenir nos section -->
-            <section id="section_1">
-
-                <div class="section_1__box">
-                    <div class="section_1__box__rect"></div>
-                    <div class="section_1__box__text">
-                        <h1>Il tape les gens pour vivre , françis <br> Nganou</h1>
-                        <p>Actu du 23 décembre 2023</p>
-                    </div>
-                </div>
-
-                <div class="section_1__actu">
-                    
-                    <div class="section_1__actu__1">
-                        <div class="section_1__actu__1__rect"></div>
-                        <div class="section_1__actu__1__text"> <h2>À LA UNE DU JOUR</h2></div>
-                    </div>
-
-                    <div class="section_1__actu__2">
-                        <div class="section_1__actu__2__image"></div>
-                        <div class="section_1__actu__2__text">
-                            <h3>L’école primaire de <br>
-                                melon dans le choc</h3>
-                            <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
-                        </div>
-
-                    </div>
-
-                    <div class="section_1__actu__3">
-                        <div class="section_1__actu__3__image"></div>
-                        <div class="section_1__actu__3__text">
-                            <h3>Manifestations pour la baisse des prix</h3>
-                            <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
-                        </div>
-
-                    </div>
-
-                    <div class="section_1__actu__4">
-                        <div class="section_1__actu__4__image"></div>
-                        <div class="section_1__actu__4__text">
-                            <h3>Bientot un métro dans la capitale </h3>
-                            <p>Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
-                        </div>
-                    </div>
-                </div>
-
-            </section>
-
-            <section id="section_2">
-                <div class="section_2__bloc1">
-                    <div class="section_2__bloc1__img1"></div>
-                    <p>Mardi , 10 Janvier 2025  10:30</p>
-                    <h2>Lutte contre le travail des <br> enfants , l’UNESCO réagit</h2>
-                </div>
-
-                <div class="section_2__bloc2">
-                    <div class="section_2__bloc2__img2"></div>
-                    <p>Mardi , 10 Janvier 2025  10:30</p>
-                    <h2>The Game of Throne  , Qui <br>sera le prochain ?? </h2>
-
-                </div>
-
-                <div class="section_2__bloc3">
-                    <div class="section_2__bloc3__img3"></div>
-                    <p>Mardi , 10 Janvier 2025  10:30</p>
-                    <h2>Le lion sort de sa cage et <br>s’exprime la CAN </h2>
-
-                </div>
-
-            </section>
-
-            <section id="section_3">
-                <div class="section_3__titre">
-                    <h2>Suivez l’atualité en direct sur Canal 2 International</h2>
-                </div>
-                <div class="section_3__img"></div>
-            </section>
-
-            <section id="section_4">
-                <div class="section_4__titre">
-                    <h2>Retrouvez vos programmes préférés</h2>
-                </div>
-                <div class="section_4__bloc">
-                    <div class="section_4__bloc__img"></div>
-                    <div class="section_4__bloc_text">
-                        <div>
-                            <h2>CANAL MATIN</h2>
-                        </div>
-                        <div>
-                            <p class="section_4__bloc_text__prg1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud</p>
-                        </div>
-                        <div>
-                            <p class="section_4__bloc_text__prg2">Du Lundi au vendredi sur Canal 2 international</p>
-                        </div>
-                        <div class="section_4__bloc_text__reseaux">
-                            <div><img src="./assets/images/insta.png" alt="instagram"></div>
-                            <div><img src="./assets/images/facebook.png" alt="facebook"></div>
-                            <div><img src="./assets/images/twiter.png" alt="twitter"></div>
-                            <div><img src="./assets/images/linkedin.png" alt="linkedin"></div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            <section id="section_5">
-                <div class="section_5_bloc1">
-                    <div class="section_5_bloc1__img1"></div>
-                    <p>DU LUNDI AU VENDREDI</p>
-                    <h3>NOUS CHEZ VOUS</h3>
-                </div>
-                <div class="section_5_bloc2">
-                    <div class="section_5_bloc1__img2"></div>
-                    <p>DU LUNDI AU VENDREDI</p>
-                    <h3>L’ARENE par Rodrigue Tongue</h3>
-                </div>
-                <div class="section_5_bloc3">
-                    <div class="section_5_bloc1__img3"></div>
-                    <p>DU LUNDI AU VENDREDI</p>
-                    <h3>COMEDIE PRESSE</h3>
-                </div>
-            </section>
-
-            <section id="section_6">
-                <div class="section_6__text">
-                    <div><h2>c’est Comment</h2></div>
-                    <div><p class="section_6__text__prg1">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit, sed do eiusmod tempor incididunt <br> ut labore et dolore magna aliqua. Ut enim ad <br> minim veniam, quis nostrud</p>
-                    </div>
-                    <div><p class="section_6__text__prg2">Du Lundi au vendredi sur Canal 2 international</p></div>
-                    <div class="section_6__text__reseaux">
-                        <div><img src="./assets/images/insta.png" alt="instagram"></div>
-                        <div><img src="./assets/images/facebook.png" alt="facebook"></div>
-                        <div><img src="./assets/images/twiter.png" alt="twitter"></div>
-                        <div><img src="./assets/images/linkedin.png"></div>
-                    </div>
-                </div>
-                <div class="section_6__img"></div>
-            </section>
-
-            <section id="secton_7">
-                <div class="section_7__text">
-                    <div class="section_7__text__rect1"></div>
-                    <div class="section_7__text__titre">
-                        <h2>ESPACE PUBlICITÉ</h2>
-                    </div>
-                    <div class="section_7__text__rect1"></div>
-                </div>
-                <div class="section_7__image"></div>
-            </section>
-            <section id="section_8" >
-                <div class="section_8__bloc">
-                    <div class="section_8__bloc__img"></div>
-                    <p>Mardi , 10 Janvier 2025 10:30</p>
-                    <h3>The standard Lorem Ipsum <br> passage, used since the 1500s</h3>
-                </div>
-                <div class="section_8__bloc">
-                    <div class="section_8__bloc__img"></div>
-                    <p>Mardi , 10 Janvier 2025 10:30</p>
-                    <h3>The standard Lorem Ipsum <br> passage, used since the 1500s</h3>
-                </div>
-                </div>
-                <div class="section_8__bloc">
-                    <div class="section_8__bloc__img"></div>
-                    <p>Mardi , 10 Janvier 2025 10:30</p>
-                    <h3>The standard Lorem Ipsum <br> passage, used since the 1500s</h3>
-                </div>
-            </section>
-
-
-        </main>
-    </body>
-
-    <footer>
-        
-            <div class="canal2_pdp"></div>
-            <div class="icon_reseau">
-                <div><a href="#"><img src="./assets/images/facebook-pdp.png" alt="instagram"></a></div>
-                <div><a href="#"><img src="./assets/images/insta-pdp.svg" alt="facebook"></a></div>
-                <div><a href="#"><img src="./assets/images/twiter-pdp.png" alt="twitter"></a></div>
-                <div><a href="#"><img src="./assets/images/linkedin-pdp.png" alt="linkedin"></a></div>
+    <header class="bg-black">
+        <div class="block md:hidden h-[35px] bg-[#79AC78]"></div>
+        <nav class="bg-white flex justify-between px-4 py-2 w-full h-auto ">
+            <div class=""><img src="./assets/images/canal2-logo.png"></div>
+            <div class=" hidden md:block flex gap-5 justify-center items-center">
+                <a href="#">Accueil</a>
+                <a href="#">Actualités</a>
+                <a href="#">Programme</a>
+                <a href="#">Direct</a>
             </div>
-        
-    </footer>
+            <div class="hidden md:block"><button>Premium</button></div>
+            <div class="block md:hidden text-6xl"><ion-icon name="menu"></ion-icon></div>
+        </nav>
+    </header>
+    <main class="w-full">
+        <section class="w-full h-auto flex-col p-8 md: flex gap-5">
+            <div class="bg-[url(./assets/images/Francis-ngannou.jpg)] bg-cover bg-center h-[400px] px-3 relative">
+                <div class="border-l-15 border-canal2 pl-3 font-IBM absolute top-65">
+                    <h1 class="text-white text-4xl  font-bold">Il tape les gens pour vivre , françis Nganou</h1>
+                    <p class="text-white text-2xl font-normal">Actu du 23 décembre 2023</p>
+                </div>
+            </div>
+            <div class="w-full h-auto flex-col py-4 ">
+                <div class="w-full h-[80px]">
+                    <h2 class="font-IBM border-l-15 border-canal2 font-semibold text-2xl pl-3">À LA UNE DU JOUR</h2>
+                </div>
+
+                <div class="w-full h-auto flex gap-8 mb-13 border-b-2 border-black pb-15">
+                    <div class="w-1/2 h-[200px] rounded-2xl bg-[url(./assets/images/section-1-img1.jpg)] bg-center bg-cover"></div>
+                    <div class="w-1/2 h-[200px]">
+                        <h2 class="font-IBM font-semibold text-3xl mb-2">L’école primaire de melon dans le choc </h2>
+                        <p  class="font-open-sans font-normal text-2xl">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    </div>
+                </div>
+
+                <div class="w-full h-auto flex gap-8 mb-13 border-b-2 border-black pb-15 ">
+                    <div class="w-1/2 h-[200] rounded-2xl bg-[url(./assets/images/section-1-img2.jpg)] bg-center bg-cover"></div>
+                    <div class="w-1/2 h-[200]">
+                        <h2 class="font-IBM font-semibold text-3xl mb-2">Manifestations pour la baisse des prix </h2>
+                        <p  class="font-open-sans font-normal text-2xl">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="w-full h-auto flex gap-8 mb-13">
+                    <div class="w-1/2 h-[200] rounded-2xl bg-[url(./assets/images/section-1-img3.jpg)] bg-center bg-cover"></div>
+                    <div class="w-1/2 h-[200]">
+                        <h2 class="font-IBM font-semibold text-3xl mb-2">Bientot un métro dans la capitale</h2>
+                        <p  class="font-open-sans font-normal text-2xl">Lundi matin, le sous prefet du nyon-ekele est partie en visite dans son village natale ....</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full h-[450px] flex px-8 gap-15 overflow-x-auto">
+            <div class="w-[354px] h-[312px] flex-col flex-shrink-0 ">
+                <div class="bg-[url(./assets/images/section-2-img1.jpg)] bg-center bg-cover w-full h-full rounded-2xl"></div>
+                <div><p class=" mt-3 font-Open-sans font-normal italic text-paragraph">Mardi , 10 Janvier 2025 10:30</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">Lutte contre le travail des enfants , l’UNESCO réagit</h2></div>
+            </div>
+
+             <div class="w-[354px] h-[312px] flex-col flex-shrink-0">
+                <div class="bg-[url(./assets/images/section-2-img2.jpg)] bg-center bg-cover w-full h-full rounded-2xl"></div>
+                <div><p class="mt-3 font-Open-sans font-normal italic text-paragraph">Mardi , 10 Janvier 2025 10:30</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">The Game of Throne , Qui sera le prochain ??</h2></div>
+            </div>
+
+            <div class="w-[354px] h-[312px] flex-col flex-shrink-0 ">
+                <div class="bg-[url(./assets/images/section-2-img3.jpg)] bg-center bg-cover w-full h-full rounded-2xl"></div>
+                <div><p class="mt-3 font-Open-sans font-normal italic text-paragraph">Mardi , 10 Janvier 2025 10:30</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">Le lion sort de sa cage et s’exprime la CAN</h2></div>
+            </div>
+
+        </section>
+
+        <section class="w-full h-auto flex flex-col px=4 py-10 items-center gap-3">
+            <div><h2 class="font-IBM font-bold text-3xl text-center text-Titre">Suivez l’atualité en direct sur Canal 2 International</h2></div>
+            <div class="bg-[url(./assets/images/section-3-img.png)] bg-center bg-cover w-[550px] h-[300px]"></div>
+        </section>
+
+        <section class="w-full h-auto flex flex-col px-8 py-10 gap-5 items-center justify-center">
+            <div><h2 class="font-IBM font-bold text-3xl text-center text-Titre">Suivez l’atualité en direct sur Canal 2 International</h2></div>
+            <div class="w-full h-auto flex flex-col gap-6 items-center">
+                <div class="bg-[url(./assets/images/section-4-img.jpg)] bg-center bg-cover w-[550px] h-[300px]"></div>
+                <div class="flex flex-col gap-7 pl-4">
+                    <h2 class="font-IBM text-4xl text-canal2 font-semibold">CANAL MATIN</h2>
+                    <p class="font-Open-sans text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    <p class="font-Open-sans text-2xl">Du Lundi au vendredi sur Canal 2 international</p>
+                    <div class="flex gap-7">
+                        <a href="#"><img src="./assets/images/insta.png" alt="instagram"></a>
+                        <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="./assets/images/twiter.png" alt="twitter"></a>
+                        <a href="#"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <section class="w-full h-[450px] flex px-8 gap-15 overflow-x-auto">
+            <div class="w-[354px] h-[312px] flex-col flex-shrink-0 ">
+                <div class="bg-[url(./assets/images/section-5-img1.jpg)] bg-no-repeat bg-center bg-contain w-full h-full rounded-2xl"></div>
+                <div><p class=" mt-3 font-Open-sans font-normal text-paragraph">DU LUNDI AU VENDREDI</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">NOUS CHEZ VOUS</h2></div>
+            </div>
+
+             <div class="w-[354px] h-[312px] flex-col flex-shrink-0">
+                <div class="bg-[url(./assets/images/section-5-img2.jpg)] bg-center bg-cover w-full h-full rounded-2xl"></div>
+                <div><p class="mt-3 font-Open-sans font-normal text-paragraph">CHAQUE VENDREDI</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">L’ARENE par Rodrigue Tongue</h2></div>
+            </div>
+
+            <div class="w-[354px] h-[312px] flex-col flex-shrink-0 ">
+                <div class="bg-[url(./assets/images/section-5-img3.jpg)] bg-center bg-cover w-full h-full rounded-2xl"></div>
+                <div><p class="mt-3 font-Open-sans font-normal text-paragraph">DU LUNDI AU VENDREDI</p></div>
+                <div><h2 class="font-IBM font-semibold text-2xl text-Titre">COMEDIE PRESSE</h2></div>
+            </div>
+
+        </section>
+            
+        <section class="w-full h-auto flex flex-col gap-7 items-center px-4 py-10">
+                <div class="bg-[url(./assets/images/section-6-img.jpg)] bg-center bg-cover w-[550px] h-[300px]"></div>
+                <div class="flex flex-col gap-7 pl-4">
+                    <h2 class="font-IBM text-4xl text-canal2 font-semibold">C’ COMMENT ?</h2>
+                    <p class="font-Open-sans text-2xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                    <p class="font-Open-sans text-2xl">Du Lundi au vendredi sur Canal 2 international</p>
+                    <div class="flex gap-7">
+                        <a href="#"><img src="./assets/images/insta.png" alt="instagram"></a>
+                        <a href="#"><img src="./assets/images/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="./assets/images/twiter.png" alt="twitter"></a>
+                        <a href="#"><img src="./assets/images/linkedin.png" alt="linkedin"></a>
+                    </div>    
+                </div>
+        </section>
+
+        <section class="w-full h-auto flex flex-col gap-6 px-8">
+            <div><h2 class="text-4xl text-canal2 font-IBM font-semibold border-l-15 border-canal2 pl-3">ESPACE PUBLICITÉ</h2></div>
+            <div class="bg-[url(./assets/images/section-7-img.png)] bg-center bg-cover w-[570px] h-[300px]"></div>
+        </section>
+    </main>
+</body>
 </html>
